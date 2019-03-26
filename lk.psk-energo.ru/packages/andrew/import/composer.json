@@ -1,0 +1,21 @@
+{
+    "name": "andrew/import",
+    "description": "",
+    "keywords": ["yii2", "import"],
+    "type": "yii2-extension",
+    "license": "",
+    "authors": [
+        {
+            "name": "Andrew",
+            "email": "andrej.lola@gmail.com"
+        }
+    ],
+    "require": {
+        "moonlandsoft/yii2-phpexcel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "andrew\\import\\": ""
+        }
+    }
+}
